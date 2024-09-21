@@ -1,0 +1,127 @@
+.layout-right {
+  position: fixed;
+}
+.trends-for-you {
+  border-radius: 15px;
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.trends-for-you-block {
+  border-bottom: 1px solid rgb(227, 221, 221);
+  padding: 10px 15px;
+}
+
+.trends-for-you-block:last-child {
+  border-bottom:none;
+}
+
+.trends-for-you-heading {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.trends-for-you-metainfo {
+  font-size: 13px;
+  font-weight: 300;
+  color: rgb(89, 87, 87);
+}
+
+.trends-for-you-name {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+.who-to-follow {
+  background: rgb(247, 247, 247);
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.who-to-follow-block {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(227, 221, 221);
+}
+
+.who-to-follow-block:last-child {
+  border-bottom: none;
+}
+
+.who-to-follow-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.who-to-follow-slug {
+  color: grey;
+  font-size: 14px;
+
+}
+
+.who-to-follow-name {
+  font-size: 15px;
+  font-weight: 700;
+  width: 10px;
+}
+
+.who-to-follow-content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.who-to-follow-heading {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.who-to-follow-button {
+  border: 1px solid rgb(64, 190, 245);
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 15px;
+  padding: 5px;
+  min-width: 67px;
+  text-align: center;
+  margin-left: 0px;
+  color: rgb(63, 63, 63);
+}
+
+.who-to-follow-button:hover {
+  background : rgb(232, 223, 223);
+  cursor: pointer;
+  color: rgb(64, 190, 245);
+}
+
+.search-bar-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  margin-left: 10px;
+}
+
+.search-bar {
+  font-size: 16px;
+  width: 300px;
+  padding: 8px;
+  border-radius: 20px;
+  border-color: rgb(64, 190, 245);
+}
+
+.search-bar:hover {
+  cursor: pointer;
+}
+
+.search-bar:hover::placeholder {
+  color:rgb(64, 190, 245) ;
+
+}
+
